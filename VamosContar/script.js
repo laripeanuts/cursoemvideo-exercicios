@@ -11,14 +11,25 @@ function contar() {
 
     if(inputInicio.value.length == 0 || inputFim.value.length == 0 || inputPasso.value.length == 0) {
         alert("ERRO. Preencha todos os campos.")
-    } else if (inputPasso.value == 0) {
-        inputPasso.value ++;
+        containerResultado.innerHTML = "Assim não dá pra contar"
+    } else if (inputPasso.value <= 0) {
+        inputPasso.value = 1;
         contar();
     } else {
-        containerResultado.innerHTML = "Contando... "
+        containerResultado.innerHTML = "Contando... <br>"
 
-        for (let c = inicio; c <= fim; c += passos) {
-            containerResultado.innerHTML += `${c} \u{1F539} `
+        if(inicio < fim) {
+                //Contagem crescente
+            for (let c = inicio; c <= fim; c += passos) {
+                containerResultado.innerHTML += `${c} \u{1F539} `
+            }
+        } else {
+                //Contagem decrescente
+            for (let c = inicio; c >= fim; c -= passos) {
+                containerResultado.innerHTML += `${c} \u{1F539} `
+            }
         }
+
+        containerResultado.innerHTML += ` \u{1F3C1}`
     }
 }
