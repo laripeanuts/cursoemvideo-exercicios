@@ -10,7 +10,7 @@
   - Projeto "Que horas são?": Dependendo da hora do dia, quando o usário acesso ao site, o conteúdo e o style mudam.
 
 <p align="center">
-  <img width="400" height="170" src="https://github.com/laripeanuts/cursoemvideo-exercicios/blob/master/images/quehorassao.png">
+  <img width="400" height="400" src="https://github.com/laripeanuts/cursoemvideo-exercicios/blob/master/images/quehorassao.png">
 </p>
 
   - Projeto "Vamos contar": Imprime os números dentro de um intervalo escolhido pelo usuário.
