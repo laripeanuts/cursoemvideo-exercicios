@@ -1,6 +1,12 @@
 # Exercicios
 ## Elaboração de alguns mini projetos usando HTML, CSS e Javascript.
 
+  - Projeto "Analisador de números": Consiste em uma criação de tabela de valores, onde os inputs passam por validação e as relações entre os números são analisadas.
+
+<p align="center">
+  <img width="400" height="300" src="https://github.com/laripeanuts/cursoemvideo-exercicios/blob/master/images/numeros.png">
+</p>
+
   - Projeto "Que horas são?": Dependendo da hora do dia, quando o usário acesso ao site, o conteúdo e o style mudam.
 
 <p align="center">
@@ -24,3 +30,4 @@
 <p align="center">
   <img width="400" height="300" src="https://github.com/laripeanuts/cursoemvideo-exercicios/blob/master/images/tabuada.png">
 </p>
+
